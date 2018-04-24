@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Difference Toast Snackbar</string>
+    <string name="hello_snack">Hello Snack !</string>
+    <string name="hello_toast">Hello Toast !</string>
+    <string name="custom_toast">Custom Toast !</string>
+    <string name="update_toast">Updated Toast !</string>
+    <string name="custom_snack">Custom Snack !</string>
+    <string name="update_snack">Updated Snack !</string>
+    <string name="masukan_kata">… masukan kata …</string>
+    <string name="canceled_toast">Canceled Toast !</string>
+    <string name="action_snack">Action Snackbar !</string>
 </resources>
