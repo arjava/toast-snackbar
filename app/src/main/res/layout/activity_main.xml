@@ -67,6 +67,13 @@
                 android:id="@+id/canceledToast"
                 android:theme="@style/Widget.AppCompat.Button.Colored" />
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/library_toast"
+                android:id="@+id/libraryToast"
+                android:theme="@style/Widget.AppCompat.Button.Colored" />
+
         </LinearLayout>
         <LinearLayout
             android:layout_weight="1"
@@ -101,6 +108,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/action_snack"
                 android:id="@+id/actionSnack"
+                android:theme="@style/Widget.AppCompat.Button.Colored" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/library_snack"
+                android:id="@+id/librarySnack"
                 android:theme="@style/Widget.AppCompat.Button.Colored" />
 
         </LinearLayout>

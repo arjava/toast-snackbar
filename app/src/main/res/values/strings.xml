@@ -9,4 +9,6 @@
     <string name="masukan_kata">… masukan kata …</string>
     <string name="canceled_toast">Canceled Toast !</string>
     <string name="action_snack">Action Snackbar !</string>
+    <string name="library_toast">Toast use Library !</string>
+    <string name="library_snack">Snack use Library !</string>
 </resources>
