@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         snack.setText("Updated Snackbar !");
                         snack.show();
                     }
-                }, 5000);
+                }, 3000);
                 break;
             case R.id.actionSnack:
 
