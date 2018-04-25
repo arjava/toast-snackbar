@@ -97,9 +97,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.updateToast:
 
-                toast = Toast.makeText(getApplicationContext(), inputString, Toast.LENGTH_SHORT);
-                toast.setText("Toast updated");
+                toast = Toast.makeText(getApplicationContext(), inputString, Toast.LENGTH_LONG);
                 toast.show();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        toast.setText("Toast updated");
+                        toast.show();
+                    }
+                }, 3000);
                 break;
             case R.id.canceledToast:
 
